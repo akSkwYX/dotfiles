@@ -1,0 +1,9 @@
+:root {
+   --color-bg: hsl(270deg 73% 25%);
+   --color-fg: hsl(272deg 63% 46%);
+   --color-primary: hsl(270deg 73% 25%);
+   --color-secondary: hsl(272deg 63% 46%);
+   --color-tertiary: hsl(273deg 68% 59%);
+   --color-link-visited: hsl(271deg 100% 14%);
+   --cat-filter: none;
+}
