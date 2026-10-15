@@ -10,6 +10,7 @@ return {
          vim.lsp.enable("java_language_server")
          vim.lsp.enable("hls")
          vim.lsp.enable("basedpyright")
+         vim.lsp.enable("gdscript")
 
          vim.diagnostic.config({
             virtual_text = { severity = { min = vim.diagnostic.INFO }, },

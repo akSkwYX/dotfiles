@@ -9,4 +9,5 @@ settings:
   colors.webpage.darkmode.enabled:
     global: false
   content.javascript.clipboard:
+    https://claude.ai: access-paste
     https://gemini.google.com: access-paste

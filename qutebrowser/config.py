@@ -7,6 +7,8 @@ c.qt.args = [
     "disable-accelerated-video-decode"
 ]
 
+c.url.searchengines = {"DEFAULT": " https://www.qwant.com/?q={}&t=web "}
+
 c.url.start_pages = ["file:///home/skwyx/.config/qutebrowser/startpage/index.html"]
 c.url.default_page = "file:///home/skwyx/.config/qutebrowser/startpage/index.html"
 

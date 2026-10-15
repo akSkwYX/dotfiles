@@ -105,6 +105,8 @@ binds {
     "Mod+A" { spawn "qutebrowser"; }
     "Mod+R" { spawn "qs" "ipc" "call" "launcher" "toggle"; }
     "Mod+V" { spawn "qs" "ipc" "call" "volume" "toggle"; }
+    "Mod+N" { spawn "qs" "ipc" "call" "wifi" "toggle"; }
+    "Mod+B" { spawn "qs" "ipc" "call" "bluetooth" "toggle"; }
 
     "XF86AudioRaiseVolume" { spawn "wpctl" "set-volume" "@DEFAULT_SINK" "2%+"; }
     "XF86AudioLowerVolume" { spawn "wpctl" "set-volume" "@DEFAULT_SINK" "2%-"; }
